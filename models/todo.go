@@ -1,8 +1,7 @@
 package models
-type Todo struct {
-	ID     int
-	Title  string
-	Status bool
-}
 
-DB.
+type Todo struct {
+	ID     int    `json:"id"`
+	Title  string `json:"title"`
+	Status bool   `json:"status"`
+}
