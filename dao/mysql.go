@@ -13,5 +13,5 @@ func InitMysql() (err error) {
 	if err != nil {
 		return
 	}
-	return DB.DB().Ping()
+	return
 }
